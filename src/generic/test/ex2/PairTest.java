@@ -15,5 +15,7 @@ public class PairTest {
         System.out.println(pair2.getFirst());
         System.out.println(pair2.getSecond());
         System.out.println("pair2 = " + pair2);
+
+        System.out.println("안녕하세요.");
     }
 }
