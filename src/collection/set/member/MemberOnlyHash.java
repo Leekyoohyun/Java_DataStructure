@@ -2,23 +2,15 @@ package collection.set.member;
 
 import java.util.Objects;
 
-public class Member {
+public class MemberOnlyHash {
     private String id;
 
-    public Member(String id) {
+    public MemberOnlyHash(String id) {
         this.id = id;
     }
 
     public String getId() {
         return id;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Member member = (Member) o;
-        return Objects.equals(id, member.id);
     }
 
     @Override
@@ -28,8 +20,10 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "MemberOnlyHash{" +
                 "id='" + id + '\'' +
                 '}';
     }
+
+
 }
