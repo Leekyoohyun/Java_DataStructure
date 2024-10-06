@@ -17,5 +17,7 @@ public class Test01 {
         a++;
         b = ++a;
         System.out.println(a+","+b);
+
+        // 증감연산자 테스트. C랑 똑같네!
     }
 }
